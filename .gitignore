@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Secrets
+.env
+
+# Trained model artifacts (regenerate with preprocess.py + recommender.py)
+models/*.pkl
+
+# Streamlit
+.streamlit/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Jupyter (not used, but ignored if created ad hoc)
+.ipynb_checkpoints/
